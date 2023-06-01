@@ -6,6 +6,7 @@ const createServer = require('../createServer');
 const AuthenticationTokenManager = require('../../../Applications/security/AuthenticationTokenManager');
 
 describe('HTTP server', () => {
+
   afterAll(async () => {
     await pool.end();
   });
